@@ -12,7 +12,7 @@ test("Hello, World!", () => {
 	expect(caesarCipher("Hello, World!", 3)).toBe("Khoor, Zruog!");
 });
 
-describe("caesarCipher", () => {
+describe("caesarCiphertest", () => {
 	test("wraps from z to a", () => {
 		expect(caesarCipher("xyz", 3)).toBe("abc");
 	});
